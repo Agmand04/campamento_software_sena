@@ -20,7 +20,9 @@ return new class extends Migration
             $table->float('rating', 2, 1);
             $table->foreignId('bootcamp_id')->constrained();
             $table->foreignId('user_id')->constrained();
-            $table->timestamps();
+            $table->
+            
+            timestamps();
         });
     }
 
